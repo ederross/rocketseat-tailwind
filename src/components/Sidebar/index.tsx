@@ -26,7 +26,7 @@ export function Sidebar() {
           <Input.Prefix>
             <Search className="h-5 w-5 text-zinc-500"></Search>
           </Input.Prefix>
-          <Input.Control placeholder="KDASKD"></Input.Control>
+          <Input.Control placeholder="Search anything..."></Input.Control>
         </Input.Root>
 
         <nav className="space-y-0.5 ">
