@@ -1,9 +1,12 @@
+import SettingsTabs from '@/components/SettingsTabs'
+import * as Tabs from '@radix-ui/react-tabs'
+
 export default function Home() {
   return (
     <>
-      <div className="flex">
-        <h1 className="text-xl text-black">Hello Tailwind</h1>
-      </div>
+      <h1 className="text-3xl font-medium text-zinc-900">Settings</h1>
+
+      <SettingsTabs />
     </>
   )
 }
