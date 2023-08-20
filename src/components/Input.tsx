@@ -6,7 +6,7 @@ export function Root(props: InputRootProps) {
   return (
     <div
       {...props}
-      className="mx-1 flex w-full items-center gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm"
+      className="mx-1 flex w-full items-center gap-2 rounded-lg border border-zinc-300 bg-white px-3 py-2 shadow-sm"
     ></div>
   )
 }
