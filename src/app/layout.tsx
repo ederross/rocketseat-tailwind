@@ -17,7 +17,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="antialiased">
-      {/* IMPORTANT FONTS ANTIALIASED */}
       <body className={inter.className}>
         <div className="grid min-h-screen grid-cols-app">
           <Sidebar />
