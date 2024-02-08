@@ -18,9 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased">
       <body className={inter.className}>
+        {/* Aqui Ray: NÃO ESQUECE DO GRID AAAA */}
         <div className="grid min-h-screen grid-cols-app">
           <Sidebar />
-          <main className="px-8 pb-12 pt-8">{children}</main>
+          <main className="bg-red-300 px-8 pb-12 pt-8">{children}</main>
         </div>
       </body>
     </html>
